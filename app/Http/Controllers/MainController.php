@@ -18,17 +18,17 @@ class MainController extends Controller
         return view('contacts');
     }
 
-    public function albom() {
-        return view('albom');
-    }
+    // public function albom() {
+    //     return view('albom');
+    // }
 
-    public function kalendar() {
-        return view('kalendar');
-    }
+    //public function calendar() {
+    //    return view('calendar');
+    //}
 
-    public function auth() {
-        return view('auth');
-    }
+    //public function auth() {
+    //    return view('auth');
+    //}
 
     public function contactssubmit() {
         return request()->all();
